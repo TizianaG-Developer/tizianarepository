@@ -1,0 +1,37 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page with Javascript</title>
+</head>
+<script>
+    function oraeData() {
+        document.getElementById("demo").innerHTML="<p>Current Date and Time:" + Date() + "</p>";    }
+        function tempo(){
+            document.getElementById("prova").innerHTML="<p>Questo è il giorno" + Date() + "</p>";
+        }
+    function polloLesso(){
+        document.getElementById("esercitati").innerHTML="Mister President" + Date() + "</p>";
+    }
+
+   
+</script>
+
+
+    <body>
+
+        <p id="demo">Paragrafo</p>
+        <button type="button"onclick="oraeData()">Ora e Data</button>
+        <p id="prova">Questa è una Prova</p>
+        <button type="button" onclick="tempo()">Questo è il bottone</button>
+        <p id="esercitati">Ciao Bambina</p>
+        <button onclick="polloLesso()">Esercitazione</button>
+
+
+    </body>
+
+
+
+
+    

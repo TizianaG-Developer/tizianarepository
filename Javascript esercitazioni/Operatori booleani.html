@@ -1,0 +1,130 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function prodotto(a,b){
+            return a*b;
+        
+        function divisione(a,b){return a/b;
+        }
+            
+        }
+        
+
+
+    </script>
+</head>
+<body>
+    <!--Operatori booleani--> 
+    <script type="text/javascript">
+        var d = new Date();
+        var Time = d.getHours();
+        if (Time<10){
+            document.write("<b>Good Morning</b>");
+        }
+        else if (Time>=10 && Time<16) {
+            document.write("<b>Good day</b>");
+
+        }
+        else {document.write("<b>Hello World!!</b>");
+        }
+    </script>
+    <p>This example demonstrates the if...else if.....else statement.</p>
+
+   <!--Operatori condizionali--> 
+    <script type="text/javascript">
+        var semaforo = "rosso"
+        var azione = (semaforo == "rosso") ? "stop"   : "avanti";
+        document.write(azione);
+
+    </script>
+
+<br>
+
+
+    <!--costrutto switch--> 
+   <script type="text/javascript">
+       var d=new Date();
+       var theDay=d.getDay();
+        switch (theDay){
+            case 5: 
+            document.write("<b>Finally Friday</b>");
+            break;
+            case 6: 
+            document.write("<b>Finally Saturday</b>"); 
+            break;
+            case 0:
+            document.write("<b>Finally Sunday</b>")
+            default:
+            document.write("<b>Buonanotte ai suonatori</b>") 
+        }
+    </script>
+    <br><br><br>
+    <!--Ciclo For-->
+    <script type="text/javascript">
+        for(i = 0; i<=5; i++){
+            document.write("the number is" + i);
+            document.write("<br />");
+        }
+
+    </script>
+     <br><br>
+    <!--Ciclo While-->
+    <script type="text/javascript">
+        i=0
+        while (i<=5){
+            document.write("The number is"+ i);
+            document.write("<br />");
+            i++
+        }
+
+    </script>
+    <!--Ciclo for-->
+     <br><br>
+     <script type="text/javascript">
+     var per = new Function("a","b","return a*b");
+     document.write(per(4,3));
+     document.write("<br>");
+     document.write(prodotto(4,3));
+     
+      </script>
+     <script type="text/javascript">
+         var divisione = new Function ("a","b", "return a/b");
+         document.write(divisione(10,2));
+         
+         document.write("<br>");
+         document.write("<br>");
+         document.write(divisione(10,2));
+
+      </script>
+      <!--Tipi di dati strutturati: array di oggetti-->
+     <script type="text/javascript">
+         var persona = {
+             nome: "Giuseppe";
+             cognome:"Persona";
+             altezza: 158;
+             nascita: new Date (1993, 03, 20) }
+             indirizzo:{
+
+             }
+             via:{
+                 strada: "Via Italo Calvino";
+                 numero: "8";
+             }
+             da finire con errray di oggetti
+             
+          
+
+         
+        
+
+
+
+
+
+     </script>
+</body>
+</html>

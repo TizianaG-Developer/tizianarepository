@@ -1,0 +1,44 @@
+
+
+
+
+
+header {
+    background-color: fuchsia;
+}
+ul{
+    list-style-type:none;
+}
+nav li{
+    display: inline;
+    margin-left: 200px;
+    
+}
+a{
+    text-decoration: none;
+    background-color:gold ;
+    padding: 10px;
+} 
+Per sottolineare quando si passa il mouse
+a:hover{
+    background-color: chartreuse;
+
+}
+a:focus{
+    background-color: cyan;
+}
+    
+
+
+.ListaOrdinataRomana {
+
+list-style-type: lower-roman;
+list-style-position:outside;
+}
+p{font-style: italic;
+text-transform:capitalize;
+text-decoration:overline;
+letter-spacing: 20px;
+word-spacing: 50px;
+text-shadow:4px 5px 9px greenyellow;
+text-align: center;}

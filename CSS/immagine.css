@@ -1,0 +1,24 @@
+.quadrato{
+    width: 200px;
+    height: 200px;
+
+    border: 10px solid pink;
+       border-style: solid;
+    border-radius: 10px;
+    border top;
+    border: top 20px;px
+
+}
+.coloreSfondo{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,212,222,1) 66%, rgba(0,212,255,1) 100%);
+}
+.coloreGradiente{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,83,191,1) 66%, rgba(0,212,255,1) 100%);
+}
+.ImmagineSfondo{
+    background-image: url(../immagini/trullo2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
